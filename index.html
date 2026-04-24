@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CFO SOB DEMANDA | Ricardo Oliveira</title>
+    <style>
+        :root {
+            --navy: #0a192f;
+            --gold: #c5a059;
+            --light: #f4f7f6;
+            --white: #ffffff;
+        }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background: var(--light); color: #333; line-height: 1.6; }
+        
+        header { background: var(--navy); color: var(--white); padding: 20px; text-align: center; border-bottom: 4px solid var(--gold); }
+        
+        /* Seção Principal com Foto */
+        .hero { 
+            display: flex; 
+            flex-wrap: wrap; 
+            align-items: center; 
+            justify-content: center; 
+            padding: 50px 20px; 
+            background: var(--white);
+            max-width: 1200px;
+            margin: auto;
+        }
+        .hero-text { flex: 1; min-width: 300px; padding: 20px; }
+        .hero-text h1 { color: var(--navy); font-size: 2.5rem; margin-bottom: 10px; }
+        .hero-text p { font-size: 1.2rem; color: var(--gold); font-weight: bold; text-transform: uppercase; }
+        
+        .hero-img { flex: 1; min-width: 300px; text-align: center; }
+        .hero-img img { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 15px; 
+            box-shadow: 20px 20px 0px var(--gold); /* Detalhe estiloso em dourado */
+        }
+
+        /* Grid de Serviços */
+        .services-container { max-width: 1100px; margin: 40px auto; padding: 20px; }
+        .services-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 25px; 
+        }
+        .service-card { 
+            background: var(--white); 
+            padding: 25px; 
+            border-radius: 5px;
+            border-top: 5px solid var(--gold);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+        .service-card h3 { color: var(--navy); margin-top: 0; }
+
+        /* Card Destaque - CFO As A Service */
+        .featured { 
+            background: var(--navy); 
+            color: var(--white); 
+            grid-column: span 1; 
+            border: 2px solid var(--gold);
+        }
+        .featured h3 { color: var(--gold); }
+        .featured ul { padding-left: 20px; }
+        .featured li { margin-bottom: 10px; }
+
+        .cta-bar { background: var(--navy); color: white; text-align: center; padding: 60px 20px; margin-top: 50px; }
+        .btn { 
+            background: var(--gold); color: var(--navy); padding: 18px 35px; 
+            text-decoration: none; font-weight: bold; border-radius: 5px; 
+            display: inline-block; font-size: 1.1rem;
+        }
+
+        footer { text-align: center; padding: 30px; font-size: 0.8rem; background: #ddd; }
+
+        @media (max-width: 768px) {
+            .hero { text-align: center; }
+            .hero-img img { box-shadow: 10px 10px 0px var(--gold); margin-top: 30px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div style="font-weight: bold; letter-spacing: 3px;">CFO SOB DEMANDA</div>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>Transformo seus números em decisões.</h1>
+        <p>Estratégia de alto nível no ritmo do seu negócio.</p>
+        <p style="color: #666; text-transform: none; font-weight: normal; font-size: 1rem;">
+            Tenha um parceiro financeiro experiente ao seu lado para crescer com segurança e previsibilidade.
+        </p>
+        <br>
+        <a href="https://wa.me" class="btn">Solicitar Diagnóstico</a>
+    </div>
+    <div class="hero-img">
+        <!-- Substitua 'foto-perfil.jpg' pelo nome do seu arquivo de imagem -->
+        <img src="foto-perfil.png" alt="Ronaldo Oliveira - CFO Sob Demanda">
+    </div>
+</section>
+
+<div class="services-container">
+    <h2 style="text-align:center; color: var(--navy); margin-bottom: 40px;">Soluções Financeiras Especializadas</h2>
+    <div class="services-grid">
+        <div class="service-card">
+            <h3>Planejamento Estratégico</h3>
+            <p>Metas, orçamentos e planos para crescimento sustentável.</p>
+        </div>
+        <div class="service-card featured">
+            <h3>CFO AS A SERVICE</h3>
+            <ul>
+                <li>Reuniões periódicas</li>
+                <li>Relatórios mensais de gestão</li>
+                <li>Acompanhamento contínuo</li>
+                <li>Suporte para decisões de impacto</li>
+            </ul>
+        </div>
+        <div class="service-card">
+            <h3>Fluxo de Caixa</h3>
+            <p>Projeção e otimização para total segurança nas suas decisões diárias.</p>
+        </div>
+        <div class="service-card">
+            <h3>Automação de Processos</h3>
+            <p>Implementação de ferramentas para ganho de eficiência e precisão.</p>
+        </div>
+        <div class="service-card">
+            <h3>Documentação Corporativa</h3>
+            <p>Manuais e políticas financeiras para empresas e bancos.</p>
+        </div>
+        <div class="service-card">
+            <h3>Serviços Premium</h3>
+            <p>Due Diligence, Valuation e Reestruturação Financeira.</p>
+        </div>
+    </div>
+</div>
+
+<section class="cta-bar">
+    <h2>Pronto para profissionalizar sua gestão financeira?</h2>
+    <a href="https://wa.me" class="btn">Conversar com Ronaldo Oliveira</a>
+    <p style="margin-top:20px;">(11) 97647-6566 | roliveira.adm@hotmail.com</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Ri-Fi Consultoria e Treinamento | cfosobdemanda.com.br</p>
+</footer>
+
+</body>
+</html>
